@@ -1,0 +1,484 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: Verdana, serif;
+	height: 100%;
+	position: relative;
+	padding-bottom: 60px;
+}
+
+header {
+	display: inline;
+}
+
+
+nav {
+	width: 100%;
+	position: sticky;
+	top: 0;
+}
+
+nav li {
+	display: inline;
+	list-style-type: none;
+	line-height: 40px;
+	padding: 20px;
+}
+
+.head-left {
+	float: left;
+	width: 40%;
+	background-color: #2d3436;
+	text-align: center;
+	height: 50px;
+}
+
+.head-left li {
+	padding: 10px;
+}
+
+.head-left li img {
+	width: 20px;
+	margin-top: 0px auto;
+	padding: 1px;
+}
+
+.head-right {
+	text-align: center;
+	float: right;
+	width: 60%;
+	background-color: #2d3436;
+	height: 50px;
+}
+
+.head-right li {
+	padding: 25px;
+	margin: -20px;
+}
+
+.head-right li a {
+	padding: 10px;
+}
+
+nav a {
+	text-decoration: none;
+	font-size: 18px;
+	font-weight: 300;
+	color: white;
+}
+
+nav a:hover {
+	font-weight: bold;
+}
+
+.slide {
+	background-image: url('../images/hero.png');
+	background-position: 0 -200px;
+	background-size: cover;
+	text-align: center;
+}
+
+.slide h1 {
+	text-align: center;
+	padding-top: 500px;
+	font-family: 'Raleway', Helvetica, Arial, sans-serif;
+	font-weight: 600;
+	text-transform: uppercase;
+	color: white;
+	font-size: 40px;
+}
+
+.slide p {
+	color: white;
+	font-weight: 500;
+	padding-bottom: 20px;
+}
+
+main {
+	padding: 20px;
+}
+
+main hr {
+	width: 100%;
+}
+
+.container {
+	width: 100%;
+	margin: 0 auto;
+	padding: 10px;
+	border-radius: 4px;
+	padding-bottom: 50px;
+	padding-top: 50px;
+}
+
+.content {
+	flex: 3;
+}
+
+aside {
+	flex: 1;
+}
+
+.bacaan {
+	display: flex;
+	width: 100%;
+	margin: 0px auto;
+	flex-wrap: wrap;
+}
+
+.isi {
+	width: 100%;
+	box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.2);
+	border-radius: 4px;
+	padding: 20px;
+	margin: 15px auto;
+	background-color: #eeee;
+}
+
+.isi h2 {
+	text-align: center;
+	color: black;
+}
+
+.isi p {
+	text-indent: 2em;
+	text-align: justify;
+
+}
+
+.isi p::first-letter {
+	color: #e84393;
+	font-size: 16px;
+	font-weight: 600;
+}
+
+.isi a {
+	text-align: right;
+	color: #74b9ff;
+}
+
+.container-dua {
+	padding: 5px;
+	display: flex;
+	flex-wrap: wrap;
+	margin-left: -20px;
+	margin-right: -20px;
+	padding-bottom: 20px;
+	padding-top: 50px;
+}
+
+.struktur {
+	border-radius: 10px;
+	border: 1px solid #999;
+	overflow: hidden;
+	background-color: #eee;
+	margin: 10px;
+	width: 100%;
+}
+
+.struktur .judul {
+	height: 170px;
+	background-color: #666;
+	padding: 20px;
+	text-align: center;
+}
+
+.struktur .jabatan {
+	text-align: center;
+	padding: 30px;
+	padding-bottom: 30px;
+}
+
+.judul h4 {
+	text-align: center;
+	margin: 5px auto;
+	padding: 2px;
+}
+
+header h2 {
+	text-align: center;
+	padding: 3px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	color: black;
+}
+
+.card {
+	box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2);
+	border-radius: 4px;
+	padding: 1px;
+	padding-right: 14px;
+	padding-bottom: 60px;
+	margin: 15px auto;
+	background-color: #eeee;
+}
+
+.author {
+	box-shadow: 0 8px 15px 0 rgba(0, 0, 0, 0.2);
+	max-width: 290px;
+	margin: auto;
+	text-align: center;
+	font-family: arial;
+
+}
+
+.author>img:first-child {
+	border-radius: 7px 7px 0 0;
+	width: 100%;
+}
+
+.author h1 {
+	margin-top: 10px;
+	font-weight: 600;
+	text-transform: uppercase;
+}
+
+.judul>img:first-child {
+	border-radius: 7px 7px 0 0;
+}
+
+.title {
+	color: grey;
+	margin: auto;
+	font-size: 18px;
+	text-align: center;
+	font-family: 'Raleway', Helvetica, Arial, sans-serif;
+	font-style: italic;
+	padding: 10px;
+}
+
+button {
+	border: none;
+	outline: 0;
+	display: inline-block;
+	padding: 8px;
+	color: white;
+	background-color: #000;
+	text-align: center;
+	cursor: pointer;
+	width: 100%;
+	font-size: 18px;
+}
+
+a {
+	text-decoration: none;
+	font-size: 22px;
+	color: black;
+}
+
+button:hover {
+	opacity: 0.7;
+}
+
+.c-sosmed img {
+	width: 25px;
+	margin: 20px auto;
+
+}
+
+.c-sosmed a:hover {
+	opacity: 0.7;
+}
+
+.container-tiga {
+	display: flex;
+	flex-wrap: wrap;
+	padding: 60px;
+}
+
+.gambar {
+	width: 100%;
+
+}
+
+.gambar img {
+
+	width: 100%;
+	padding: 0px;
+}
+
+.container-empat {
+	width: 75%;
+	padding: 40px;
+
+}
+
+.container-empat h2 {
+	text-align: center;
+	font-family: 'Raleway', Helvetica, Arial, sans-serif;
+	font-weight: 600;
+	text-transform: uppercase;
+	margin: 0px;
+	color: black;
+	padding: 15px;
+}
+
+.sosmed {
+	display: flex;
+	width: 100%;
+	flex-wrap: wrap;
+	margin-bottom: 50px;
+	justify-content: space-between;
+}
+
+.medsos {
+	width: 100%;
+	padding-bottom: 40px;
+	font-size: 12px;
+}
+
+.medsos img {
+	width: 110px;
+	padding: 20px;
+}
+
+.komentar {
+	border-radius: 5px;
+	background-color: #f2f2f2;
+	padding: 20px;
+	text-align: left;
+}
+
+input[type=text],
+select,
+textarea {
+	width: 100%;
+	padding: 12px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+	margin-top: 6px;
+	margin-bottom: 16px;
+
+}
+
+input[type=submit] {
+	background-color: #4CAF50;
+	color: white;
+	padding: 12px 20px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+}
+
+input[type=submit]:hover {
+	background-color: #45a049;
+}
+
+#top {
+	display: none;
+	position: fixed;
+	bottom: 75px;
+	right: 10px;
+
+	width: 50px;
+	border: none;
+	outline: none;
+	background-color: #e84393;
+	color: white;
+	font-weight: 900;
+	cursor: pointer;
+	padding: 5px;
+	border-radius: 9px;
+}
+
+footer {
+	position: absolute;
+	bottom: 0px;
+	width: 100%;
+	padding: 25px;
+	color: white;
+	font-weight: bold;
+	background-color: #151515;
+	text-align: center;
+}
+
+@media screen and (min-width: 800px) {
+	.container {
+		display: flex;
+		justify-content: space-between;
+	}
+
+	.content {
+		width: 100%;
+	}
+
+	aside {
+		width: 100%;
+
+		margin: 0 auto;
+	}
+
+	main hr {
+		width: 73%;
+	}
+
+	.isi {
+		width: 45%;
+
+	}
+
+	.struktur {
+		width: 17%;
+	}
+
+	.slide {
+		background-size: cover;
+	}
+
+	.gambar {
+		width: 30%;
+		padding: 1px;
+
+	}
+
+	.gambar img {
+		width: 202px;
+		margin: 0 auto;
+
+	}
+
+	.medsos {
+		width: 30%;
+
+	}
+
+}
+
+@media screen and (max-width: 1000px) {
+	.head-left {
+
+		width: 100%;
+		left: 0;
+	}
+
+	.head-right {
+		text-align: center;
+		width: 100%;
+	}
+
+	.head-right li {
+		padding: 5px;
+		margin-left: -3px;
+
+	}
+
+	.slide h1 {
+		font-weight: 900;
+		font-size: 18px;
+	}
+
+	.slide p {
+		font-size: 12px;
+		padding-bottom: 2px;
+	}
+
+	.komentar {
+		width: 250px;
+	}
+
+}

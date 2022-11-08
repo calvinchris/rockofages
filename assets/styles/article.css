@@ -1,0 +1,194 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Verdana, serif;
+	height : 100%;
+	position : relative;
+	
+	
+}
+ 
+main {
+	
+	background-color : #ecf0f1;
+	height : 100%;
+	padding-bottom : 130px;
+}
+
+
+.container-artikel {
+	width : 100%;
+	margin: 50px auto;
+	padding: 20px;
+	
+}
+
+.bacaan {
+	width : 100%;
+	line-height : 1.65;
+	padding :10px;
+	text-align : justify;
+	margin-right : 20px;
+}
+article h2 {
+	text-align :center;
+}
+aside {
+  width : 100%;
+   padding : 10px;
+   margin-top : 70px;
+}
+
+
+
+header h2 {
+   text-align : center;
+   padding : 3px;
+   margin-top : 20px;
+   margin-bottom : 20px;
+   color : black;
+}
+
+.card {
+   box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2);
+   border-radius: 4px;
+   padding: 1px;
+   
+   padding-bottom : 50px;
+   margin : 0px auto;  
+   background-color : #eeee;
+}
+
+.author {
+  box-shadow: 0 8px 15px 0 rgba(0, 0, 0, 0.2);
+  max-width: 290px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+  
+}
+
+.author > img:first-child{
+	border-radius : 7px 7px 0 0;
+	width : 100%;
+}
+
+.author h1 {
+	margin-top : 10px;
+	font-weight : 600;
+	text-transform : uppercase;
+}
+
+.judul > img:first-child {
+	border-radius : 7px 7px 0 0;
+}
+
+.title {
+  color: grey;
+  margin : auto;
+  font-size: 18px;
+  text-align : center;
+  font-family: 'Raleway', Helvetica, Arial, sans-serif;
+  font-style : italic;
+  padding : 10px;
+}
+
+button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+a {
+  text-decoration: none;
+  font-size: 22px;
+  color: black;
+}
+
+button:hover {
+  opacity: 0.7;  
+}
+
+.c-sosmed img {
+	width : 25px;
+	margin : 20px auto;
+	
+}
+
+.c-sosmed a:hover {	
+	opacity: 0.7;
+}
+
+
+
+
+footer {
+   position : absolute;
+   bottom : 0px;
+   width : 100%;
+   padding: 25px;
+   color: white;
+   font-weight : bold;
+   background-color: #151515;
+   text-align : center;
+}
+
+@media screen and (min-width: 1100px) {
+	.container-artikel {
+	
+		display :flex;	
+		justify-content : space-between;
+	}
+	.bacaan {
+		width : 75%;
+		
+		
+	}
+	aside {
+		width : 20%;
+		margin-top : 50px;
+	}
+	
+}
+
+@media screen and (max-width: 1000px) {
+	.head-left {
+		
+		width : 100%;
+		left : 0;
+	}
+	
+	.head-right {
+		text-align : center;
+		width : 100%;
+	}
+	
+	.head-right li {
+		padding : 5px;
+		margin-left : -3px;
+		
+	}
+	.slide h1 { 
+		font-weight : 900;
+		font-size : 18px;
+	}
+	.slide p {
+		font-size : 12px;
+		padding-bottom : 2px;
+	}
+	.komentar {
+		width : 220px;
+	}
+	
+}
